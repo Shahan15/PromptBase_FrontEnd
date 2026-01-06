@@ -9,7 +9,7 @@ The project was intentionally structured to prioritise **backend ownership and s
 ## 🛠️ Tech Stack
 
 ### Backend (100% Manual Implementation)
-* **Source Code:** [View Backend Repository](https://github.com/Shahan15/PromptBase)
+* **Source Code:** [View Backend Repository](https://github.com/Shahan15/PromptBase_Backend)
 * **Architecture:** Custom-built logic focused on scalability, clarity, and separation of concerns.
 * **API Layer:** Fully owned end-to-end data handling, validation, and custom route design using Python/FastAPI.
 * **Logic:** All business logic and database integration decisions were made and implemented independently.
@@ -39,10 +39,13 @@ In modern engineering environments, AI is a force multiplier, not a replacement 
 - Node.js (v18+ recommended)
 - npm
 
+> Make sure your backend is running and configured with the appropriate environment variables. See the backend repo for details.
+
+
 ### 2. Setup
 ```bash
 # Clone the repository
-git clone [https://github.com/Shahan15/PromptBase_FrontEnd.git](https://github.com/Shahan15/PromptBase_FrontEnd.git)
+git clone https://github.com/Shahan15/PromptBase_FrontEnd.git
 
 # Navigate to the project directory
 cd PromptBase_FrontEnd
@@ -56,6 +59,6 @@ npm run dev
 ```
 
 ### Project Status
-- Core functionality: Fully implemented.
-- Architecture: Extensible and ready for feature expansion.
-- Demonstration: Showcases practical backend engineering and thoughtful AI utilisation.
+- ✅ Core functionality: Fully implemented
+- ✅ Architecture: Extensible and ready for feature expansion
+- ✅ Demonstration: Showcases practical backend engineering and thoughtful AI utilisation
