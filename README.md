@@ -1,73 +1,61 @@
-# Welcome to your Lovable project
+# 🚀 PromptBase — Full-Stack Architecture & AI Integration
 
-## Project info
+This is a full-stack web application designed to demonstrate robust backend architecture, secure data flow, and modern API logic.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The project was intentionally structured to prioritise **backend ownership and system design**, while leveraging **AI-assisted tooling** to accelerate UI scaffolding. This allowed me to focus my engineering effort on the core of the application: building, integrating, and reasoning about the logic that powers the experience.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+### Backend (100% Manual Implementation)
+* **Source Code:** [View Backend Repository](https://github.com/Shahan15/PromptBase)
+* **Architecture:** Custom-built logic focused on scalability, clarity, and separation of concerns.
+* **API Layer:** Fully owned end-to-end data handling, validation, and custom route design using Python/FastAPI.
+* **Logic:** All business logic and database integration decisions were made and implemented independently.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Frontend (AI-Accelerated & Manually Refined)
+* **Frameworks:** Vite, React, TypeScript, Tailwind CSS, shadcn/ui.
+* **Process:** UI scaffolding was AI-assisted to speed up layout creation. All generated code was critically reviewed, refactored, and integrated manually to ensure alignment with backend contracts.
 
-Changes made via Lovable will be committed automatically to this repo.
+> **Note:** The use of AI was strictly a productivity choice for the frontend interface. All system architecture, security implementation, and integration decisions remain my sole responsibility.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧠 Why This Approach?
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+In modern engineering environments, AI is a force multiplier, not a replacement for judgment. This project reflects that reality by:
+- **Prioritising API-First Thinking:** Ensuring clean, type-safe communication between layers.
+- **Focusing on System Correctness:** Maintaining full responsibility for data integrity and security.
+- **Critical Evaluation:** Demonstrating the ability to modify and extend generated code to meet specific project requirements.
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🏗️ Running the Project Locally
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 1. Prerequisites
+- Node.js (v18+ recommended)
+- npm
+
+### 2. Setup
+```bash
+# Clone the repository
+git clone [https://github.com/Shahan15/PromptBase_FrontEnd.git](https://github.com/Shahan15/PromptBase_FrontEnd.git)
+
+# Navigate to the project directory
+cd PromptBase_FrontEnd
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
+
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Project Status
+- Core functionality: Fully implemented.
+- Architecture: Extensible and ready for feature expansion.
+- Demonstration: Showcases practical backend engineering and thoughtful AI utilisation.
